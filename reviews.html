@@ -16,7 +16,7 @@
 <body>
 
    <!-- ================= Шапка сайта (Header) - такая же, как на главной ================= -->
-   <header class="site-header sticky-top shadow-sm"> <!-- Класс bg-light убран, будем задавать фон в CSS -->
+   <header class="site-header sticky-top shadow-sm">
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand fw-bold fs-4" href="index.html">MV Lawyers</a>
@@ -58,11 +58,7 @@
         <!-- ================= Список Отзывов ================= -->
         <section class="reviews-listing-section py-5">
             <div class="container">
-                <!-- Опционально: фильтры -->
-                <!-- <h2 class="text-center mb-5">Что говорят о нас</h2> -->
-
                 <div class="row g-4 reviews-grid">
-
                     <!-- Отзыв 1 -->
                     <div class="col-md-6 col-lg-4">
                         <article class="card review-item h-100 shadow-sm">
@@ -75,11 +71,8 @@
                                     </div>
                                 </div>
                                 <div class="review-rating mt-2 text-warning" aria-label="Оценка: 5 из 5 звезд">
-                                    <!-- Можно использовать Bootstrap Icons для звезд -->
                                     <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                                    <!-- Или текстовые звезды, если иконки не подключены:
-                                    <span class="star filled">★</span><span class="star filled">★</span><span class="star filled">★</span><span class="star filled">★</span><span class="star filled">★</span>
-                                    -->
+                                    
                                 </div>
                             </div>
                             <div class="card-body">
@@ -111,7 +104,7 @@
                             </div>
                             <div class="card-body">
                                 <blockquote class="review-text fst-italic">
-                                    <p>"Выражаю огромную благодарность Елене Сергеевне... Все прошло максимально корректно и с учетом моих интересов. Спасибо!"</p>
+                                    <p>"Выражаю огромную благодарность Елене Сергеевне! Все прошло максимально корректно и с учетом моих интересов. Спасибо!"</p>
                                 </blockquote>
                             </div>
                             <div class="card-footer bg-transparent border-0 text-muted small pb-3">
@@ -138,7 +131,7 @@
                             </div>
                             <div class="card-body">
                                 <blockquote class="review-text fst-italic">
-                                    <p>"Потребовалось юридическое сопровождение сделки... в целом работой доволен."</p>
+                                    <p>"Потребовалось юридическое сопровождение сделки... в целом, работой доволен."</p>
                                 </blockquote>
                             </div>
                             <div class="card-footer bg-transparent border-0 text-muted small pb-3">
@@ -147,11 +140,10 @@
                             </div>
                         </article>
                     </div>
-                    <!-- Добавьте другие отзывы по аналогии -->
                 </div>
 
                 <!-- Пагинация (если отзывов много) -->
-                <nav aria-label="Навигация по страницам отзывов" class="mt-5 d-none"> <!-- Скрыл пока d-none -->
+                <nav aria-label="Навигация по страницам отзывов" class="mt-5 d-none">
                     <ul class="pagination justify-content-center">
                         <li class="page-item disabled"><a class="page-link" href="#">Предыдущая</a></li>
                         <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a></li>
@@ -169,7 +161,6 @@
                 <h2 class="mb-3">Работали с нами? Поделитесь своим мнением!</h2>
                 <p class="col-md-8 mx-auto mb-4">Ваш отзыв поможет нам стать лучше, а другим клиентам – сделать правильный выбор.</p>
                 <a href="/contact.html#consultation-form" class="btn btn-primary btn-lg large-cta">Оставить отзыв</a> 
-                <!-- Ссылка ведет на общую форму контактов, можно сделать отдельную форму или id для отзывов -->
             </div>
         </section>
     </main>
@@ -229,9 +220,6 @@
 
     <!-- Bootstrap JS Bundle (Popper.js включен) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    
-    <!-- Bootstrap Icons (опционально, если нужны для звезд или других иконок) -->
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"> -->
 
     <script>
         document.getElementById('current-year').textContent = new Date().getFullYear();
