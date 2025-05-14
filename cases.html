@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ознакомьтесь с примерами успешно решенных дел и проектов юридического агентства MV Lawyers. Наш опыт в действии.">
+    <title>Наши Кейсы - MV Lawyers | Примеры юридической практики</title>
+
+   <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+   <!-- Bootstrap Icons CSS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+   
+   <link rel="stylesheet" href="../css/style.css"> 
+</head>
+<body>
+
+   <!-- ================= Шапка сайта (Header) - такая же, как на главной ================= -->
+   <header class="site-header sticky-top shadow-sm"> <!-- Класс bg-light убран, будем задавать фон в CSS -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-4" href="index.html">MV Lawyers</a>
+            <button class="navbar-toggler mobile-menu-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Открыть меню">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 main-navigation">
+                    <li class="nav-item"><a class="nav-link" href="about.html">О нас</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Услуги</a></li>
+                    <li class="nav-item"><a class="nav-link" href="team.html">Команда</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cases.html">Кейсы</a></li>
+                    <li class="nav-item"><a class="nav-link" href="reviews.html">Отзывы</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Блог</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Контакты</a></li>
+                </ul>
+                <div class="d-flex align-items-center header-contacts">
+                    <a href="tel:+375448121288" class="nav-link me-3 d-none d-lg-inline">+375 (44) 812-12-88</a>
+                    <a href="contact.html" class="btn btn-primary header-cta me-3">Получить консультацию</a>
+                    <button class="btn btn-outline-secondary" id="theme-toggle-button" aria-label="Переключить тему">
+                        <i class="bi bi-moon-stars-fill" id="theme-icon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+    <!-- ================= Основное содержимое страницы "Кейсы" (Main) ================= -->
+    <main>
+        <!-- ================= Заголовок страницы ================= -->
+        <section class="page-header-section bg-secondary-subtle py-5">
+            <div class="container text-center">
+                <h1 class="display-5 fw-bold">Наши успешные кейсы</h1>
+                <p class="lead subtitle col-md-8 mx-auto">Примеры из нашей практики, демонстрирующие наш подход, экспертизу и достигнутые результаты для клиентов.</p>
+            </div>
+        </section>
+
+        <!-- ================= Список Кейсов ================= -->
+        <section class="cases-listing-section py-5">
+            <div class="container">
+                <!-- Опционально: Фильтры по отраслям права или типу дел -->
+                <div class="cases-filters mb-4 pb-3 border-bottom d-none"> <!-- Скрыл пока d-none -->
+                    <h4>Фильтр по услугам:</h4>
+                    <a href="/cases/category/corporate.html" class="btn btn-outline-secondary btn-sm me-2 mb-2 filter-tag">Корпоративное право</a>
+                    <a href="/cases/category/litigation.html" class="btn btn-outline-secondary btn-sm me-2 mb-2 filter-tag">Судебные споры</a>
+                    <a href="/cases/category/real-estate.html" class="btn btn-outline-secondary btn-sm me-2 mb-2 filter-tag">Недвижимость</a>
+                </div>
+
+                <div class="row g-4 cases-grid">
+                    <!-- Кейс 1 -->
+                    <div class="col-md-6 col-lg-4">
+                        <article class="card case-item h-100 shadow-sm">
+                            <div class="case-item-image-wrapper position-relative">
+                                <span class="badge bg-primary position-absolute top-0 end-0 m-2 case-item-category-badge">Корпоративное право</span>
+                            </div>
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title fs-5 fw-semibold">
+                                    <a href="/cases/razreshenie-krupnogo-korporativnogo-spora.html" class="text-dark text-decoration-none">Разрешение крупного корпоративного спора</a>
+                                </h3>
+                                <p class="card-text small case-item-excerpt flex-grow-1">
+                                    <strong>Клиент:</strong> ООО "ТехноСтройИнвест".<br>
+                                    <strong>Задача:</strong> Защита интересов мажоритарного акционера в споре о выводе активов.<br>
+                                    <strong>Результат:</strong> Судебное решение о признании сделок недействительными, возврат активов.
+                                </p>
+                                <div class="case-item-meta text-muted small mt-2">
+                                    <span class="case-duration">Продолжительность: 8 месяцев</span>
+                                </div>
+                                <a href="/cases/razreshenie-krupnogo-korporativnogo-spora.html" class="btn btn-link p-0 text-primary learn-more mt-auto">Подробнее о кейсе →</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Кейс 2 -->
+                    <div class="col-md-6 col-lg-4">
+                        <article class="card case-item h-100 shadow-sm">
+                            <div class="case-item-image-wrapper position-relative">
+                                 <span class="badge bg-success position-absolute top-0 end-0 m-2 case-item-category-badge">Недвижимость</span>
+                            </div>
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title fs-5 fw-semibold">
+                                    <a href="/cases/soprovozhdenie-slozhnoj-sdelki-s-kommercheskoj-nedvizhimostyu.html" class="text-dark text-decoration-none">Сопровождение сделки с коммерческой недвижимостью</a>
+                                </h3>
+                                <p class="card-text small case-item-excerpt flex-grow-1">
+                                    <strong>Клиент:</strong> ИП "Прогресс".<br>
+                                    <strong>Задача:</strong> Полное юридическое сопровождение покупки производственного комплекса, включая due diligence.<br>
+                                    <strong>Результат:</strong> Успешное закрытие сделки без юридических рисков.
+                                </p>
+                                <div class="case-item-meta text-muted small mt-2">
+                                    <span class="case-duration">Продолжительность: 3 месяца</span>
+                                </div>
+                                <a href="/cases/soprovozhdenie-slozhnoj-sdelki-s-kommercheskoj-nedvizhimostyu.html" class="btn btn-link p-0 text-primary learn-more mt-auto">Подробнее о кейсе →</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Кейс 3 (без картинки, пример) -->
+                    <div class="col-md-6 col-lg-4">
+                        <article class="card case-item h-100 shadow-sm">
+                            <div class="card-body d-flex flex-column">
+                                <span class="badge bg-warning text-dark mb-2 align-self-start case-item-category-badge alt-badge">Судебное представительство</span>
+                                <h3 class="card-title fs-5 fw-semibold">
+                                    <a href="/cases/vyigrysh-v-arbitrazhnom-sude-po-dogovoru-postavki.html" class="text-dark text-decoration-none">Выигрыш в арбитражном суде по договору поставки</a>
+                                </h3>
+                                <p class="card-text small case-item-excerpt flex-grow-1">
+                                    <strong>Клиент:</strong> ЗАО "МеталлСнаб".<br>
+                                    <strong>Задача:</strong> Взыскание крупной задолженности и неустойки с контрагента.<br>
+                                    <strong>Результат:</strong> Полное удовлетворение исковых требований.
+                                </p>
+                                <div class="case-item-meta text-muted small mt-2">
+                                    <span class="case-duration">Продолжительность: 6 месяцев</span>
+                                </div>
+                                <a href="/cases/vyigrysh-v-arbitrazhnom-sude-po-dogovoru-postavki.html" class="btn btn-link p-0 text-primary learn-more mt-auto">Подробнее о кейсе →</a>
+                            </div>
+                        </article>
+                    </div>
+
+                     <!-- Кейс 4: Пример с акцентом на результате -->
+                    <div class="col-md-6 col-lg-4">
+                        <article class="card case-item h-100 shadow-sm">
+                            <div class="case-item-image-wrapper position-relative">
+                                 <span class="badge bg-info text-dark position-absolute top-0 end-0 m-2 case-item-category-badge">Интеллектуальная собственность</span>
+                            </div>
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title fs-5 fw-semibold">
+                                    <a href="/cases/zashchita-tovarnogo-znaka-ot-nezakonnogo-ispolzovaniya.html" class="text-dark text-decoration-none">Защита товарного знака от незаконного использования</a>
+                                </h3>
+                                <p class="card-text small case-item-excerpt">
+                                    <strong>Клиент:</strong> "Модный Дом Ирины Волковой".<br>
+                                    <strong>Задача:</strong> Пресечение незаконного использования товарного знака конкурентом.<br>
+                                </p>
+                                 <div class="case-item-result highlight-result bg-light p-2 mt-2 border-start border-primary border-3 flex-grow-1">
+                                    <strong class="d-block small text-primary">Ключевой результат:</strong>
+                                    <p class="small mb-0">Сохранение репутации бренда и предотвращение дальнейших убытков через досудебное урегулирование.</p>
+                                </div>
+                                <a href="/cases/zashchita-tovarnogo-znaka-ot-nezakonnogo-ispolzovaniya.html" class="btn btn-link p-0 text-primary learn-more mt-auto">Подробнее о кейсе →</a>
+                            </div>
+                        </article>
+                    </div>
+                    <!-- Добавьте другие кейсы по аналогии -->
+                </div>
+
+                <!-- Пагинация (если кейсов много) -->
+                <nav aria-label="Навигация по страницам кейсов" class="mt-5 d-none"> <!-- Скрыл пока d-none -->
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item disabled"><a class="page-link" href="#">Предыдущая</a></li>
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Следующая</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+        <!-- ================= Призыв к действию ================= -->
+        <section class="contact-prompt py-5 bg-primary text-white text-center">
+            <div class="container">
+                <h2 class="display-5 fw-bold text-white">Есть похожая задача или нужен совет эксперта?</h2>
+                <p class="lead my-4 col-md-8 mx-auto opacity-75">Расскажите нам о вашей ситуации, и мы предложим стратегию для ее успешного разрешения.</p>
+                <a href="contact.html" class="btn btn-light btn-lg inverted-cta large-cta">Обсудить мой случай</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- ================= Подвал сайта (Footer) - такой же, как на index.html ================= -->
+    <footer class="site-footer bg-dark text-light pt-5 pb-4">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-4 col-md-6 footer-about">
+                     <h4 class="fw-bold text-white">MV Lawyers</h4>
+                     <p class="small">Ваш надежный партнер в мире права. Помогаем защищать ваши интересы с 2012 года.</p>
+                </div>
+                 <div class="col-lg-2 col-md-6 footer-nav">
+                     <h5 class="text-white">Навигация</h5>
+                     <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white-50 text-decoration-none">Главная</a></li>
+                        <li><a href="about.html" class="text-white-50 text-decoration-none">О нас</a></li>
+                        <li><a href="services.html" class="text-white-50 text-decoration-none">Услуги</a></li>
+                        <li><a href="team.html" class="text-white-50 text-decoration-none">Команда</a></li>
+                        <li><a href="blog.html" class="text-white-50 text-decoration-none">Блог</a></li>
+                        <li><a href="contact.html" class="text-white-50 text-decoration-none">Контакты</a></li>
+                     </ul>
+                 </div>
+                 <div class="col-lg-3 col-md-6 footer-contacts">
+                     <h5 class="text-white">Контакты</h5>
+                     <address class="small mb-0">
+                        <p class="mb-1">📍 <a href="contact.html#map-section" class="text-white-50 text-decoration-none footer-address-link">г. Минск, пр. Независимости 1, оф. 1</a></p>
+                        <p class="mb-1">📞 <a href="tel:+375448121288" class="text-white-50 text-decoration-none">+375 (44) 812-12-88</a></p>
+                        <p class="mb-1">📧 <a href="mailto:info@mvlawyres.com" class="text-white-50 text-decoration-none">info@mvlawyres.com</a></p>
+                        <p class="mb-0">🕒 Пн-Пт: 9:00 - 18:00</p>
+                     </address>
+                 </div>
+                <div class="col-lg-3 col-md-6 footer-social">
+                    <h5 class="text-white">Мы в соцсетях</h5>
+                        <a href="https://www.facebook.com/DonaldTrump" target="blank" rel="noopener noreferrer" aria-label="Facebook" class="text-white-50 me-2 fs-4">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/apple" target="blank" rel="noopener noreferrer" aria-label="LinkedIn" class="text-white-50 me-2 fs-4">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a href="https://t.me/kirylkaaa" target="_blank" rel="noopener noreferrer" aria-label="Telegram" class="text-white-50 fs-4">
+                            <i class="bi bi-telegram"></i>
+                        </a>
+                    </div>
+            </div>
+            <hr class="my-4" style="border-color: rgba(255,255,255,0.1);">
+            <div class="footer-bottom text-center text-white-50 small">
+                <p class="mb-1">© <span id="current-year"></span> MV Lawyers. Все права защищены.</p>
+                <p class="mb-1">
+                    <a href="/privacy-policy.html" class="text-white-50 text-decoration-none">Политика конфиденциальности</a> | 
+                    <a href="/terms-of-use.html" class="text-white-50 text-decoration-none">Условия использования</a>
+                </p>
+                <p class="disclaimer opacity-75">Информация на сайте не является публичной офертой и носит информационный характер. Юридические консультации предоставляются только после заключения договора.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle (Popper.js включен) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+        
+        // Скрипт для активного пункта меню
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentPagePath = window.location.pathname;
+            const navLinks = document.querySelectorAll('.main-navigation .nav-link, .footer-nav .nav-link');
+
+            navLinks.forEach(link => {
+                const linkPath = new URL(link.href).pathname;
+                let isLinkActive = false;
+
+                if (linkPath === currentPagePath) {
+                    isLinkActive = true;
+                } 
+                else if ((currentPagePath === '/' || currentPagePath.endsWith('/index.html')) && 
+                           (linkPath === '/' || linkPath.endsWith('/index.html'))) {
+                    isLinkActive = true;
+                }
+
+                if (isLinkActive) {
+                    link.classList.add('active');
+                    link.setAttribute('aria-current', 'page');
+                } else {
+                    link.classList.remove('active');
+                    link.removeAttribute('aria-current');
+                }
+            });
+        });
+
+         // --- Скрипт переключения темы ---
+         const themeToggleButton = document.getElementById('theme-toggle-button');
+        const themeIcon = document.getElementById('theme-icon');
+        const body = document.body;
+        const lightIconClass = 'bi-moon-stars-fill'; // Иконка для светлой темы (показывает, что можно переключить на темную)
+        const darkIconClass = 'bi-sun-fill';       // Иконка для темной темы (показывает, что можно переключить на светлую)
+
+        // Функция для применения темы
+        function applyTheme(theme) {
+            if (theme === 'dark') {
+                body.classList.add('dark-theme');
+                themeIcon.classList.remove(lightIconClass);
+                themeIcon.classList.add(darkIconClass);
+                themeToggleButton.setAttribute('aria-label', 'Переключить на светлую тему');
+            } else {
+                body.classList.remove('dark-theme');
+                themeIcon.classList.remove(darkIconClass);
+                themeIcon.classList.add(lightIconClass);
+                themeToggleButton.setAttribute('aria-label', 'Переключить на темную тему');
+            }
+        }
+
+        // Проверяем сохраненную тему или системные настройки
+        let currentTheme = localStorage.getItem('theme');
+        if (!currentTheme) {
+            currentTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+        applyTheme(currentTheme); // Применяем начальную тему
+
+        // Обработчик клика по кнопке
+        if (themeToggleButton) {
+            themeToggleButton.addEventListener('click', () => {
+                let newTheme = body.classList.contains('dark-theme') ? 'light' : 'dark';
+                applyTheme(newTheme);
+                localStorage.setItem('theme', newTheme); // Сохраняем выбор
+            });
+        }
+    </script>
+</body>
+</html>

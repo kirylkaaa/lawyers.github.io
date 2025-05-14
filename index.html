@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Свяжитесь с юридическим агентством MV Lawyers: адрес, телефон, email, форма обратной связи и карта проезда. Мы всегда готовы помочь.">
+    <title>Контакты - MV Lawyers | Связаться с нами</title>
+
+   <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+   <!-- Bootstrap Icons CSS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+   
+   <link rel="stylesheet" href="../css/style.css"> 
+</head>
+<body>
+
+   <!-- ================= Шапка сайта (Header) - такая же, как на главной ================= -->
+   <header class="site-header sticky-top shadow-sm"> <!-- Класс bg-light убран, будем задавать фон в CSS -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-4" href="index.html">MV Lawyers</a>
+            <button class="navbar-toggler mobile-menu-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Открыть меню">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 main-navigation">
+                    <li class="nav-item"><a class="nav-link" href="about.html">О нас</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Услуги</a></li>
+                    <li class="nav-item"><a class="nav-link" href="team.html">Команда</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cases.html">Кейсы</a></li>
+                    <li class="nav-item"><a class="nav-link" href="reviews.html">Отзывы</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Блог</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Контакты</a></li>
+                </ul>
+                <div class="d-flex align-items-center header-contacts">
+                    <a href="tel:+375 (44) 812-12-88" class="nav-link me-3 d-none d-lg-inline">+375 (44) 812-12-88</a>
+                    <button class="btn btn-primary header-cta me-3">
+                        <a class="nav-link" href="contact.html">Получить консультацию</a>
+                    </button>
+                    <button class="btn btn-outline-secondary" id="theme-toggle-button" aria-label="Переключить тему">
+                        <i class="bi bi-moon-stars-fill" id="theme-icon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+    <!-- ================= Основное содержимое страницы (Main) ================= -->
+    <main>
+        <!-- Hero секция (Первый экран) -->
+        <section id="hero" class="hero-section bg-secondary-subtle text-dark py-5 text-center">
+            <div class="container">
+                <h1 class="display-4 fw-bold">Надежная юридическая защита для вас и вашего бизнеса</h1>
+                <p class="lead subtitle my-4 col-md-8 mx-auto">Решаем сложные юридические вопросы с гарантией профессионализма и конфиденциальности.</p>
+                <a href="contact.html#consultation-form" class="btn btn-primary btn-lg large-cta">Записаться на консультацию</a>
+            </div>
+        </section>
+
+        <!-- Карусель "Наши Услуги" -->
+        <section id="services-carousel" class="services-carousel-section py-5">
+            <div class="container">
+                <h2 class="text-center mb-5">Наши ключевые практики</h2>
+                <div id="servicesCarousel" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-inner">
+                        <!-- Слайд 1: Услуги 1-4 -->
+                        <div class="carousel-item active">
+                            <div class="row g-4 justify-content-center">
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="card service-card h-100 text-center shadow-sm">
+                                        <div class="card-body d-flex flex-column">
+                                            <div class="service-icon-placeholder mb-3 mx-auto">
+                                                <i class="bi bi-building-fill-gear display-4 text-muted"></i>
+                                            </div>
+                                            <h3 class="card-title fs-5 fw-semibold">Корпоративное право</h3>
+                                            <p class="card-text small flex-grow-1">Регистрация, M&A, сопровождение.</p>
+                                            <a href="services/corporate.html" class="btn btn-outline-primary btn-sm learn-more mt-auto">Подробнее →</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="card service-card h-100 text-center shadow-sm">
+                                        <div class="card-body d-flex flex-column">
+                                            <div class="service-icon-placeholder mb-3 mx-auto">
+                                                <i class="bi bi-people-fill display-4 text-muted"></i>
+                                            </div>
+                                            <h3 class="card-title fs-5 fw-semibold">Семейное право</h3>
+                                            <p class="card-text small flex-grow-1">Разводы, имущество, алименты.</p>
+                                            <a href="services/family.html" class="btn btn-outline-primary btn-sm learn-more mt-auto">Подробнее →</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="card service-card h-100 text-center shadow-sm">
+                                         <div class="card-body d-flex flex-column">
+                                            <div class="service-icon-placeholder mb-3 mx-auto">
+                                                <i class="bi bi-briefcase-fill display-4 text-muted"></i>
+                                            </div>
+                                            <h3 class="card-title fs-5 fw-semibold">Судебное представительство</h3>
+                                            <p class="card-text small flex-grow-1">Защита в судах всех инстанций.</p>
+                                            <a href="services/litigation.html" class="btn btn-outline-primary btn-sm learn-more mt-auto">Подробнее →</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-none d-lg-flex">
+                                    <div class="card service-card h-100 text-center shadow-sm">
+                                        <div class="card-body d-flex flex-column">
+                                            <div class="service-icon-placeholder mb-3 mx-auto">
+                                                <i class="bi bi-house-gear-fill display-4 text-muted"></i>
+                                            </div>
+                                            <h3 class="card-title fs-5 fw-semibold">Недвижимость</h3>
+                                            <p class="card-text small flex-grow-1">Сопровождение сделок, споры.</p>
+                                            <a href="services/real-estate.html" class="btn btn-outline-primary btn-sm learn-more mt-auto">Подробнее →</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Слайд 2: Услуги 5-8 -->
+                        <div class="carousel-item">
+                            <div class="row g-4 justify-content-center">
+                                 <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-lg-none d-md-flex">
+                                    <div class="card service-card h-100 text-center shadow-sm">
+                                        <div class="card-body d-flex flex-column">
+                                            <div class="service-icon-placeholder mb-3 mx-auto">
+                                                <i class="bi bi-house-gear-fill display-4 text-muted"></i>
+                                            </div>
+                                            <h3 class="card-title fs-5 fw-semibold">Недвижимость</h3>
+                                            <p class="card-text small flex-grow-1">Сопровождение сделок, споры.</p>
+                                            <a href="services/real-estate.html" class="btn btn-outline-primary btn-sm learn-more mt-auto">Подробнее →</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                     <div class="card service-card h-100 text-center shadow-sm">
+                                        <div class="card-body d-flex flex-column">
+                                            <div class="service-icon-placeholder mb-3 mx-auto">
+                                                <i class="bi bi-lightbulb-fill display-4 text-muted"></i>
+                                            </div>
+                                            <h3 class="card-title fs-5 fw-semibold">Интеллектуальная собственность</h3>
+                                            <p class="card-text small flex-grow-1">Товарные знаки, патенты, авторское право.</p>
+                                            <a href="services/intellectual-property.html" class="btn btn-outline-primary btn-sm learn-more mt-auto">Подробнее →</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="card service-card h-100 text-center shadow-sm">
+                                        <div class="card-body d-flex flex-column">
+                                            <div class="service-icon-placeholder mb-3 mx-auto">
+                                                <i class="bi bi-file-earmark-text-fill display-4 text-muted"></i>
+                                            </div>
+                                            <h3 class="card-title fs-5 fw-semibold">Трудовое право</h3>
+                                            <p class="card-text small flex-grow-1">Договоры, споры, кадровый аудит.</p>
+                                            <a href="services/labor.html" class="btn btn-outline-primary btn-sm learn-more mt-auto">Подробнее →</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="card service-card h-100 text-center shadow-sm">
+                                        <div class="card-body d-flex flex-column">
+                                            <div class="service-icon-placeholder mb-3 mx-auto">
+                                                <i class="bi bi-calculator-fill display-4 text-muted"></i>
+                                            </div>
+                                            <h3 class="card-title fs-5 fw-semibold">Налоговое право</h3>
+                                            <p class="card-text small flex-grow-1">Консультации, планирование, проверки.</p>
+                                            <a href="services/tax.html" class="btn btn-outline-primary btn-sm learn-more mt-auto">Подробнее →</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                 <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-none d-lg-flex">
+                                    <div class="card service-card h-100 text-center shadow-sm">
+                                        <div class="card-body d-flex flex-column">
+                                            <div class="service-icon-placeholder mb-3 mx-auto">
+                                                <i class="bi bi-hammer display-4 text-muted"></i>
+                                            </div>
+                                            <h3 class="card-title fs-5 fw-semibold">Банкротство</h3>
+                                            <p class="card-text small flex-grow-1">Сопровождение процедур, защита.</p>
+                                            <a href="services/bankruptcy.html" class="btn btn-outline-primary btn-sm learn-more mt-auto">Подробнее →</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="carousel-item">
+                            <div class="row g-4 justify-content-center">
+                                 <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-lg-none d-md-flex">
+                                    <div class="card service-card h-100 text-center shadow-sm">
+                                        <div class="card-body d-flex flex-column">
+                                             <div class="service-icon-placeholder mb-3 mx-auto">
+                                                <i class="bi bi-hammer display-4 text-muted"></i>
+                                            </div>
+                                            <h3 class="card-title fs-5 fw-semibold">Банкротство</h3>
+                                            <p class="card-text small flex-grow-1">Сопровождение процедур, защита.</p>
+                                            <a href="services/bankruptcy.html" class="btn btn-outline-primary btn-sm learn-more mt-auto">Подробнее →</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#servicesCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#servicesCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                    </button>
+                </div>
+                <div class="text-center mt-5">
+                     <a href="services.html" class="btn btn-secondary secondary-cta">Смотреть все услуги</a>
+                 </div>
+            </div>
+        </section>
+
+        <!-- Секция "Почему мы?" (Преимущества) -->
+        <section id="why-us" class="why-us py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5">Почему клиенты выбирают нас?</h2>
+                <div class="row g-4 features-grid">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-item text-center">
+                            <div class="feature-icon-placeholder mb-3 mx-auto">
+                               <i class="bi bi-award-fill display-3 text-muted"></i>
+                            </div>
+                            <h3 class="fs-5 fw-semibold">Многолетний опыт</h3>
+                            <p class="small">Более 12 лет успешной практики в различных отраслях права.</p>
+                        </div>
+                    </div>
+                     <div class="col-md-6 col-lg-3">
+                        <div class="feature-item text-center">
+                            <div class="feature-icon-placeholder mb-3 mx-auto">
+                                <i class="bi bi-people-fill display-3 text-muted"></i>
+                            </div>
+                            <h3 class="fs-5 fw-semibold">Сильная команда</h3>
+                            <p class="small">Высококвалифицированные юристы с узкой специализацией.</p>
+                        </div>
+                    </div>
+                     <div class="col-md-6 col-lg-3">
+                        <div class="feature-item text-center">
+                           <div class="feature-icon-placeholder mb-3 mx-auto">
+                                <i class="bi bi-graph-up-arrow display-3 text-muted"></i>
+                            </div>
+                            <h3 class="fs-5 fw-semibold">Ориентация на результат</h3>
+                            <p class="small">Мы нацелены на достижение максимально выгодного исхода для клиента.</p>
+                        </div>
+                    </div>
+                     <div class="col-md-6 col-lg-3">
+                        <div class="feature-item text-center">
+                            <div class="feature-icon-placeholder mb-3 mx-auto">
+                                <i class="bi bi-shield-lock-fill display-3 text-muted"></i>
+                            </div>
+                            <h3 class="fs-5 fw-semibold">Конфиденциальность</h3>
+                            <p class="small">Строгое соблюдение адвокатской тайны и этических норм.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- Секция "Отзывы" (Краткий блок) -->
+         <section id="testimonials" class="testimonials-preview py-5">
+             <div class="container">
+                 <h2 class="text-center mb-5">Что говорят наши клиенты</h2>
+                 <div class="testimonial-slider"> 
+                     <div class="testimonial-item card shadow-sm col-md-8 mx-auto">
+                         <div class="card-body text-center">
+                            <blockquote class="blockquote mb-4">
+                                <p class="fst-italic fs-5">"Обращались по сложному корпоративному спору. Юристы MV Lawyres проявили высокий профессионализм и помогли выиграть дело. Рекомендую!"</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer mb-0">
+                                Иван Петров, <cite title="Source Title">Генеральный директор ООО "Тмыв"</cite>
+                            </figcaption>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="text-center mt-5">
+                    <a href="reviews.html" class="btn btn-outline-secondary secondary-cta">Читать все отзывы</a>
+                 </div>
+             </div>
+         </section>
+
+        <!-- Секция "Призыв к действию" (CTA) -->
+        <section class="final-cta py-5 bg-primary text-white text-center">
+            <div class="container">
+                <h2 class="display-5 fw-bold">Готовы обсудить вашу ситуацию?</h2>
+                <p class="lead my-4 col-md-8 mx-auto">Не откладывайте решение юридических вопросов. Свяжитесь с нами для получения первичной консультации.</p>
+                <a href="contact.html" class="btn btn-light btn-lg inverted-cta large-cta">Связаться с нами</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- ================= Подвал сайта (Footer) ================= -->
+    <footer class="site-footer bg-dark text-light pt-5 pb-4">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-4 col-md-6 footer-about">
+                     <h4 class="fw-bold text-white">MV Lawyers</h4>
+                     <p class="small">Ваш надежный партнер в мире права. Помогаем защищать ваши интересы с 2012 года.</p>
+                </div>
+                 <div class="col-lg-2 col-md-6 footer-nav">
+                     <h5 class="text-white">Навигация</h5>
+                     <ul class="list-unstyled">
+                        <li><a href="index.html#hero" class="text-white-50 text-decoration-none">В начало</a></li>
+                        <li><a href="about.html" class="text-white-50 text-decoration-none">О нас</a></li>
+                        <li><a href="index.html#services-carousel" class="text-white-50 text-decoration-none">Услуги</a></li>
+                        <li><a href="team.html" class="text-white-50 text-decoration-none">Команда</a></li>
+                        <li><a href="index.html#testimonials" class="text-white-50 text-decoration-none">Отзывы</a></li>
+                        <li><a href="blog.html" class="text-white-50 text-decoration-none">Блог</a></li>
+                        <li><a href="contact.html" class="text-white-50 text-decoration-none">Контакты</a></li>
+                     </ul>
+                 </div>
+                 <div class="col-lg-3 col-md-6 footer-contacts">
+                     <h5 class="text-white">Контакты</h5>
+                     <address class="small mb-0">
+                        <p class="mb-1">📍 <a href="contact.html#map-section" class="text-white-50 text-decoration-none footer-address-link">г. Минск, пр. Независимости 1, оф. 1</a></p>
+                        <p class="mb-1">📞 <a href="tel:+375448121288" class="text-white-50 text-decoration-none">+375 (44) 812-12-88</a></p>
+                        <p class="mb-1">📧 <a href="mailto:info@mvlawyres.com" class="text-white-50 text-decoration-none">info@mvlawyres.com</a></p>
+                        <p class="mb-0">🕒 Пн-Пт: 9:00 - 18:00</p>
+                     </address>
+                 </div>
+                <div class="col-lg-3 col-md-6 footer-social">
+                    <h5 class="text-white">Мы в соцсетях</h5>
+                        <a href="https://www.facebook.com/DonaldTrump" target="blank" rel="noopener noreferrer" aria-label="Facebook" class="text-white-50 me-2 fs-4">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/apple" target="blank" rel="noopener noreferrer" aria-label="LinkedIn" class="text-white-50 me-2 fs-4">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a href="https://t.me/kirylkaaa" target="_blank" rel="noopener noreferrer" aria-label="Telegram" class="text-white-50 fs-4">
+                            <i class="bi bi-telegram"></i>
+                        </a>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <hr class="my-4" style="border-color: rgba(255,255,255,0.1);">
+            <div class="footer-bottom text-center text-white-50 small">
+                <p class="mb-1">© <span id="current-year"></span> MV Lawyers. Все права защищены.</p>
+                <p class="mb-1">
+                    <a href="/privacy-policy.html" class="text-white-50 text-decoration-none">Политика конфиденциальности</a> | 
+                    <a href="/terms-of-use.html" class="text-white-50 text-decoration-none">Условия использования</a>
+                </p>
+                <p class="disclaimer opacity-75">Информация на сайте не является публичной офертой и носит информационный характер. Юридические консультации предоставляются только после заключения договора.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle (Popper.js включен) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+        
+        // --- Скрипт для активного пункта меню ---
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentPagePath = window.location.pathname;
+            const navLinks = document.querySelectorAll('.main-navigation .nav-link, .footer-nav .nav-link'); 
+
+            navLinks.forEach(link => {
+                const linkUrl = new URL(link.href, window.location.origin);
+                const linkPath = linkUrl.pathname;
+                let isLinkActive = false;
+
+                if (linkPath === currentPagePath) {
+                    isLinkActive = true;
+                } 
+                else if ((currentPagePath === '/' || currentPagePath.endsWith('/index.html')) && 
+                           (linkPath === '/' || linkPath.endsWith('/index.html'))) {
+                    isLinkActive = true;
+                }
+
+                if (isLinkActive) {
+                    link.classList.add('active');
+                    link.setAttribute('aria-current', 'page');
+                } else {
+                    link.classList.remove('active');
+                    link.removeAttribute('aria-current');
+                }
+            });
+
+            const homeLinkSlash = document.querySelector('.main-navigation .nav-link[href="/"]');
+            const homeLinkIndex = document.querySelector('.main-navigation .nav-link[href="index.html"]');
+            const footerHomeLinkSlash = document.querySelector('.footer-nav .nav-link[href="/"]');
+            const footerHomeLinkIndex = document.querySelector('.footer-nav .nav-link[href="index.html"]');
+
+            function setActiveHome(mainSlash, mainIndex, footerSlash, footerIndex) {
+                const isRoot = (currentPagePath === '/' || currentPagePath.endsWith('/index.html'));
+                if (isRoot) {
+                    if (mainSlash) mainSlash.classList.add('active');
+                    if (mainIndex) mainIndex.classList.add('active');
+                    if (footerSlash) footerSlash.classList.add('active');
+                    if (footerIndex) footerIndex.classList.add('active');
+
+                    if (mainSlash && mainIndex) {
+                        if (currentPagePath === '/') {
+                            if(mainIndex) mainIndex.classList.remove('active');
+                        } else { 
+                           if(mainSlash) mainSlash.classList.remove('active');
+                        }
+                    }
+                     if (footerSlash && footerIndex) {
+                        if (currentPagePath === '/') {
+                            if(footerIndex) footerIndex.classList.remove('active');
+                        } else { 
+                           if(footerSlash) footerSlash.classList.remove('active');
+                        }
+                    }
+                }
+            }
+            setActiveHome(homeLinkSlash, homeLinkIndex, footerHomeLinkSlash, footerHomeLinkIndex);
+        });
+
+        // --- Скрипт переключения темы ---
+        (function() {
+            const themeToggleButton = document.getElementById('theme-toggle-button');
+            const themeIcon = document.getElementById('theme-icon');
+            const body = document.body;
+            const lightIconClass = 'bi-moon-stars-fill';
+            const darkIconClass = 'bi-sun-fill';
+            const themeKey = 'themePreferenceMVLawyers';
+
+            if (!themeToggleButton || !themeIcon) {
+                return; 
+            }
+
+            function applyTheme(themeToApply) {
+                if (themeToApply === 'dark') {
+                    body.classList.add('dark-theme');
+                    themeIcon.classList.remove(lightIconClass);
+                    themeIcon.classList.add(darkIconClass);
+                    themeToggleButton.setAttribute('aria-label', 'Переключить на светлую тему');
+                } else { 
+                    body.classList.remove('dark-theme');
+                    themeIcon.classList.remove(darkIconClass);
+                    themeIcon.classList.add(lightIconClass);
+                    themeToggleButton.setAttribute('aria-label', 'Переключить на темную тему');
+                }
+            }
+            
+            function initializeTheme() {
+                let preferredTheme = localStorage.getItem(themeKey);
+                if (!preferredTheme) {
+                    const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                    preferredTheme = prefersDarkScheme ? 'dark' : 'light';
+                }
+                applyTheme(preferredTheme);
+            }
+
+            themeToggleButton.addEventListener('click', () => {
+                const isDarkMode = body.classList.contains('dark-theme');
+                const newTheme = isDarkMode ? 'light' : 'dark';
+                applyTheme(newTheme);
+                localStorage.setItem(themeKey, newTheme);
+            });
+
+            if (document.readyState === "interactive" || document.readyState === "complete") {
+                 initializeTheme();
+            } else {
+                document.addEventListener('DOMContentLoaded', initializeTheme);
+            }
+        })();
+    </script>
+
+</body>
+</html>

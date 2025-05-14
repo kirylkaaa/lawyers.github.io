@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Познакомьтесь с командой профессиональных юристов и адвокатов юридического агентства MV Lawyers. Наши эксперты в различных областях права.">
+    <title>Наша Команда - MV Lawyers | Юристы и Адвокаты</title>
+
+   <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+   <!-- Bootstrap Icons CSS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+   
+   <link rel="stylesheet" href="../css/style.css"> 
+</head>
+<body>
+
+   <!-- ================= Шапка сайта (Header) - такая же, как на главной ================= -->
+   <header class="site-header sticky-top shadow-sm">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-4" href="index.html">MV Lawyers</a>
+            <button class="navbar-toggler mobile-menu-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Открыть меню">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 main-navigation">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">О нас</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Услуги</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="team.html" aria-current="page">Команда</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cases.html">Кейсы</a></li>
+                    <li class="nav-item"><a class="nav-link" href="reviews.html">Отзывы</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Блог</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Контакты</a></li>
+                </ul>
+                <div class="d-flex align-items-center header-contacts">
+                    <a href="tel:+375448121288" class="nav-link me-3 d-none d-lg-inline">+375 (44) 812-12-88</a>
+                    <a href="contact.html" class="btn btn-primary header-cta me-3">Получить консультацию</a>
+                    <button class="btn btn-outline-secondary" id="theme-toggle-button" aria-label="Переключить тему">
+                        <i class="bi bi-moon-stars-fill" id="theme-icon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+    <!-- ================= Основное содержимое страницы "Команда" (Main) ================= -->
+    <main>
+        <!-- ================= Заголовок страницы ================= -->
+        <section class="page-header-section bg-secondary-subtle py-5">
+            <div class="container text-center">
+                <h1 class="display-5 fw-bold">Наша команда профессионалов</h1>
+                <p class="lead subtitle col-md-8 mx-auto">За каждым успешным делом стоят опытные и преданные своему делу юристы. Познакомьтесь с нашими экспертами.</p>
+            </div>
+        </section>
+
+        <!-- ================= Список Членов Команды ================= -->
+        <section class="team-listing-section py-5">
+            <div class="container">
+                <div class="row g-4 team-grid">
+
+                    <!-- Член команды 1: Корпоративное право -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="card team-member-card h-100 shadow-sm text-center">
+                            <div class="team-member-photo-wrapper pt-4">
+                                <img src="images/team/alexey.jpg" alt="Фото Имя Фамилия" class="team-member-photo rounded-circle img-thumbnail" style="width: 150px; height: 150px; object-fit: cover;">
+                            </div>
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title fs-5 fw-semibold team-member-name mt-3">Иванов Алексей Андреевич</h3>
+                                <p class="team-member-position text-muted small">Партнер, Руководитель практики корпоративного права</p>
+                                <p class="team-member-specialization small flex-grow-1"><strong>Специализация:</strong> M&A, реструктуризация бизнеса, корпоративные споры.</p>
+                                <p class="team-member-experience small text-primary fw-medium">Опыт: более 15 лет.</p>
+                                <div class="team-member-contact mt-auto">
+                                    <a href="mailto:a.ivanov@mvlawyers.com" class="btn btn-outline-primary btn-sm contact-link email-link">Написать</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Член команды 2: Семейное право -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="card team-member-card h-100 shadow-sm text-center">
+                            <div class="team-member-photo-wrapper pt-4">
+                                <img src="images/team/e.jpg" alt="Фото Имя Фамилия" class="team-member-photo rounded-circle img-thumbnail" style="width: 150px; height: 150px; object-fit: cover;">
+                            </div>
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title fs-5 fw-semibold team-member-name mt-3">Петрова Елена Сергеевна</h3>
+                                <p class="team-member-position text-muted small">Старший юрист, Эксперт по семейному праву</p>
+                                <p class="team-member-specialization small flex-grow-1"><strong>Специализация:</strong> расторжение брака, раздел имущества, споры о детях, алименты.</p>
+                                <p class="team-member-experience small text-primary fw-medium">Опыт: 10 лет.</p>
+                                 <div class="team-member-contact mt-auto">
+                                    <a href="mailto:e.petrova@mvlawyers.com" class="btn btn-outline-primary btn-sm contact-link email-link">Написать</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Член команды 3: Судебное представительство -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="card team-member-card h-100 shadow-sm text-center">
+                            <div class="team-member-photo-wrapper pt-4">
+                                <img src="images/team/victor.jpg" alt="Фото Имя Фамилия" class="team-member-photo rounded-circle img-thumbnail" style="width: 150px; height: 150px; object-fit: cover;">
+                            </div>
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title fs-5 fw-semibold team-member-name mt-3">Сидоров Виктор Иванович</h3>
+                                <p class="team-member-position text-muted small">Адвокат, Руководитель судебно-арбитражной практики</p>
+                                <p class="team-member-specialization small flex-grow-1"><strong>Специализация:</strong> арбитражные споры, гражданские дела, исполнительное производство.</p>
+                                <p class="team-member-experience small text-primary fw-medium">Опыт: 12 лет.</p>
+                                 <div class="team-member-contact mt-auto">
+                                    <a href="mailto:v.sidorov@mvlawyers.com" class="btn btn-outline-primary btn-sm contact-link email-link">Написать</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Член команды 4: Недвижимость и строительство -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="card team-member-card h-100 shadow-sm text-center">
+                            <div class="team-member-photo-wrapper pt-4">
+                                <img src="images/team/olga.jpg" alt="Фото Имя Фамилия" class="team-member-photo rounded-circle img-thumbnail" style="width: 150px; height: 150px; object-fit: cover;">
+                            </div>
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title fs-5 fw-semibold team-member-name mt-3">Козлова Ольга Николаевна</h3>
+                                <p class="team-member-position text-muted small">Юрист, Специалист по недвижимости</p>
+                                <p class="team-member-specialization small flex-grow-1"><strong>Специализация:</strong> сделки с недвижимостью, земельное право, споры в строительстве.</p>
+                                <p class="team-member-experience small text-primary fw-medium">Опыт: 8 лет.</p>
+                                 <div class="team-member-contact mt-auto">
+                                    <a href="mailto:o.kozlova@mvlawyers.com" class="btn btn-outline-primary btn-sm contact-link email-link">Написать</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- Член команды 5: Интеллектуальная собственность -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="card team-member-card h-100 shadow-sm text-center">
+                            <div class="team-member-photo-wrapper pt-4">
+                                <img src="images/team/denis.jpg" alt="Фото Имя Фамилия" class="team-member-photo rounded-circle img-thumbnail" style="width: 150px; height: 150px; object-fit: cover;">
+                            </div>
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title fs-5 fw-semibold team-member-name mt-3">Павлов Денис Станиславович</h3>
+                                <p class="team-member-position text-muted small">Патентный поверенный, Юрист по ИС</p>
+                                <p class="team-member-specialization small flex-grow-1"><strong>Специализация:</strong> товарные знаки, патенты, авторское право, лицензии.</p>
+                                <p class="team-member-experience small text-primary fw-medium">Опыт: 9 лет.</p>
+                                 <div class="team-member-contact mt-auto">
+                                    <a href="mailto:d.pavlov@mvlawyers.com" class="btn btn-outline-primary btn-sm contact-link email-link">Написать</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Член команды 6: Трудовое право -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="card team-member-card h-100 shadow-sm text-center">
+                            <div class="team-member-photo-wrapper pt-4">
+                                <img src="images/team/maria.jpg" alt="Фото Имя Фамилия" class="team-member-photo rounded-circle img-thumbnail" style="width: 150px; height: 150px; object-fit: cover;">
+                            </div>
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title fs-5 fw-semibold team-member-name mt-3">Федорова Мария Викторовна</h3>
+                                <p class="team-member-position text-muted small">Юрисконсульт, Эксперт по трудовому праву</p>
+                                <p class="team-member-specialization small flex-grow-1"><strong>Специализация:</strong> трудовые договоры, ЛНА, трудовые споры, кадровый аудит.</p>
+                                <p class="team-member-experience small text-primary fw-medium">Опыт: 7 лет.</p>
+                                 <div class="team-member-contact mt-auto">
+                                    <a href="mailto:m.fedorova@mvlawyers.com" class="btn btn-outline-primary btn-sm contact-link email-link">Написать</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Член команды 7: Налоговое право -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="card team-member-card h-100 shadow-sm text-center">
+                            <div class="team-member-photo-wrapper pt-4">
+                                <img src="images/team/pavel.jpg" alt="Фото Имя Фамилия" class="team-member-photo rounded-circle img-thumbnail" style="width: 150px; height: 150px; object-fit: cover;">
+                            </div>
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title fs-5 fw-semibold team-member-name mt-3">Григорьев Павел Алексеевич</h3>
+                                <p class="team-member-position text-muted small">Налоговый консультант, Юрист</p>
+                                <p class="team-member-specialization small flex-grow-1"><strong>Специализация:</strong> налоговое планирование, налоговые проверки, оспаривание решений.</p>
+                                <p class="team-member-experience small text-primary fw-medium">Опыт: 11 лет.</p>
+                                 <div class="team-member-contact mt-auto">
+                                    <a href="mailto:p.grigoriev@mvlawyers.com" class="btn btn-outline-primary btn-sm contact-link email-link">Написать</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Член команды 8: Банкротство -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="card team-member-card h-100 shadow-sm text-center">
+                            <div class="team-member-photo-wrapper pt-4">
+                                <img src="images/team/kiryl.jpg" alt="Фото Имя Фамилия" class="team-member-photo rounded-circle img-thumbnail" style="width: 150px; height: 150px; object-fit: cover;">
+                            </div>
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title fs-5 fw-semibold team-member-name mt-3">Семенов Кирилл Максимович</h3>
+                                <p class="team-member-position text-muted small">Юрист по банкротству</p>
+                                <p class="team-member-specialization small flex-grow-1"><strong>Специализация:</strong> банкротство юр. и физ. лиц, защита кредиторов и должников.</p>
+                                <p class="team-member-experience small text-primary fw-medium">Опыт: 9 лет.</p>
+                                 <div class="team-member-contact mt-auto">
+                                    <a href="mailto:k.semenov@mvlawyers.com" class="btn btn-outline-primary btn-sm contact-link email-link">Написать</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= Призыв к действию (Почему стоит выбрать нас) ================= -->
+        <section class="cta-team-section py-5 bg-primary text-white text-center">
+            <div class="container">
+                <h2 class="display-5 fw-bold text-white">Доверьте ваше дело профессионалам</h2>
+                <p class="lead my-4 col-md-8 mx-auto opacity-75">Наша команда объединяет глубокие знания законодательства, практический опыт и индивидуальный подход к каждой ситуации. Мы стремимся не просто оказать юридическую услугу, а найти оптимальное решение для достижения ваших целей.</p>
+                <a href="contact.html" class="btn btn-light btn-lg large-cta inverted-cta mt-3">Получить консультацию</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- ================= Подвал сайта (Footer) - такой же, как на index.html ================= -->
+    <footer class="site-footer bg-dark text-light pt-5 pb-4">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-4 col-md-6 footer-about">
+                     <h4 class="fw-bold text-white">MV Lawyers</h4>
+                     <p class="small">Ваш надежный партнер в мире права. Помогаем защищать ваши интересы с 2012 года.</p>
+                </div>
+                 <div class="col-lg-2 col-md-6 footer-nav">
+                     <h5 class="text-white">Навигация</h5>
+                     <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white-50 text-decoration-none">Главная</a></li>
+                        <li><a href="about.html" class="text-white-50 text-decoration-none">О нас</a></li>
+                        <li><a href="services.html" class="text-white-50 text-decoration-none">Услуги</a></li>
+                        <li><a href="team.html" class="text-white-50 text-decoration-none active" aria-current="page">Команда</a></li>
+                        <li><a href="blog.html" class="text-white-50 text-decoration-none">Блог</a></li>
+                        <li><a href="contact.html" class="text-white-50 text-decoration-none">Контакты</a></li>
+                     </ul>
+                 </div>
+                 <div class="col-lg-3 col-md-6 footer-contacts">
+                     <h5 class="text-white">Контакты</h5>
+                     <address class="small mb-0">
+                        <p class="mb-1">📍 <a href="contact.html#map-section" class="text-white-50 text-decoration-none footer-address-link">г. Минск, пр. Независимости 1, оф. 1</a></p>
+                        <p class="mb-1">📞 <a href="tel:+375448121288" class="text-white-50 text-decoration-none">+375 (44) 812-12-88</a></p>
+                        <p class="mb-1">📧 <a href="mailto:info@mvlawyres.com" class="text-white-50 text-decoration-none">info@mvlawyres.com</a></p>
+                        <p class="mb-0">🕒 Пн-Пт: 9:00 - 18:00</p>
+                     </address>
+                 </div>
+                <div class="col-lg-3 col-md-6 footer-social">
+                    <h5 class="text-white">Мы в соцсетях</h5>
+                        <a href="https://www.facebook.com/DonaldTrump" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="text-white-50 me-2 fs-4">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/apple" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="text-white-50 me-2 fs-4">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a href="https://t.me/kirylkaaa" target="_blank" rel="noopener noreferrer" aria-label="Telegram" class="text-white-50 fs-4">
+                            <i class="bi bi-telegram"></i>
+                        </a>
+                    </div>
+            </div>
+            <hr class="my-4" style="border-color: rgba(255,255,255,0.1);">
+            <div class="footer-bottom text-center text-white-50 small">
+                <p class="mb-1">© <span id="current-year"></span> MV Lawyers. Все права защищены.</p>
+                <p class="mb-1">
+                    <a href="/privacy-policy.html" class="text-white-50 text-decoration-none">Политика конфиденциальности</a> | 
+                    <a href="/terms-of-use.html" class="text-white-50 text-decoration-none">Условия использования</a>
+                </p>
+                <p class="disclaimer opacity-75">Информация на сайте не является публичной офертой и носит информационный характер. Юридические консультации предоставляются только после заключения договора.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle (Popper.js включен) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+        
+        // Скрипт для активного пункта меню
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentPagePath = window.location.pathname;
+            const navLinks = document.querySelectorAll('.main-navigation .nav-link, .footer-nav .nav-link');
+
+             navLinks.forEach(link => {
+                const linkUrl = new URL(link.href, window.location.origin); // Для корректного pathname
+                const linkPath = linkUrl.pathname;
+                let isLinkActive = false;
+
+                if (linkPath === currentPagePath) {
+                    isLinkActive = true;
+                } 
+                else if ((currentPagePath === '/' || currentPagePath.endsWith('/index.html')) && 
+                           (linkPath === '/' || linkPath.endsWith('/index.html'))) {
+                    isLinkActive = true;
+                }
+
+                if (isLinkActive) {
+                    link.classList.add('active');
+                    link.setAttribute('aria-current', 'page');
+                } else {
+                    link.classList.remove('active');
+                    link.removeAttribute('aria-current');
+                }
+            });
+
+            // Специальная логика для корректной подсветки главной страницы ( / или /index.html )
+            const homeLinkSlash = document.querySelector('.main-navigation .nav-link[href="/"]');
+            const homeLinkIndex = document.querySelector('.main-navigation .nav-link[href="index.html"]');
+            const footerHomeLinkSlash = document.querySelector('.footer-nav .nav-link[href="/"]');
+            const footerHomeLinkIndex = document.querySelector('.footer-nav .nav-link[href="index.html"]');
+
+            function setActiveHome(mainSlash, mainIndex, footerSlash, footerIndex) {
+                const isRoot = (currentPagePath === '/' || currentPagePath.endsWith('/index.html'));
+                if (isRoot) {
+                    if (mainSlash) mainSlash.classList.add('active');
+                    if (mainIndex) mainIndex.classList.add('active');
+                    if (footerSlash) footerSlash.classList.add('active');
+                    if (footerIndex) footerIndex.classList.add('active');
+
+                    if (mainSlash && mainIndex) {
+                        if (currentPagePath === '/') {
+                            if(mainIndex) mainIndex.classList.remove('active');
+                        } else { 
+                           if(mainSlash) mainSlash.classList.remove('active');
+                        }
+                    }
+                     if (footerSlash && footerIndex) {
+                        if (currentPagePath === '/') {
+                            if(footerIndex) footerIndex.classList.remove('active');
+                        } else { 
+                           if(footerSlash) footerSlash.classList.remove('active');
+                        }
+                    }
+                }
+            }
+            setActiveHome(homeLinkSlash, homeLinkIndex, footerHomeLinkSlash, footerHomeLinkIndex);
+        });
+
+         // --- Скрипт переключения темы ---
+         (function() { // IIFE для изоляции
+            const themeToggleButton = document.getElementById('theme-toggle-button');
+            const themeIcon = document.getElementById('theme-icon');
+            const body = document.body;
+            const lightIconClass = 'bi-moon-stars-fill';
+            const darkIconClass = 'bi-sun-fill';
+            const themeKey = 'themePreferenceMVLawyers';
+
+            if (!themeToggleButton || !themeIcon) {
+                // console.error('Theme toggle elements not found on team.html!');
+                return; 
+            }
+
+            function applyTheme(themeToApply) {
+                if (themeToApply === 'dark') {
+                    body.classList.add('dark-theme');
+                    themeIcon.classList.remove(lightIconClass);
+                    themeIcon.classList.add(darkIconClass);
+                    themeToggleButton.setAttribute('aria-label', 'Переключить на светлую тему');
+                } else { 
+                    body.classList.remove('dark-theme');
+                    themeIcon.classList.remove(darkIconClass);
+                    themeIcon.classList.add(lightIconClass);
+                    themeToggleButton.setAttribute('aria-label', 'Переключить на темную тему');
+                }
+            }
+            
+            function initializeTheme() {
+                let preferredTheme = localStorage.getItem(themeKey);
+                if (!preferredTheme) {
+                    const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                    preferredTheme = prefersDarkScheme ? 'dark' : 'light';
+                }
+                applyTheme(preferredTheme);
+            }
+
+            themeToggleButton.addEventListener('click', () => {
+                const isDarkMode = body.classList.contains('dark-theme');
+                const newTheme = isDarkMode ? 'light' : 'dark';
+                applyTheme(newTheme);
+                localStorage.setItem(themeKey, newTheme);
+            });
+
+            if (document.readyState === "interactive" || document.readyState === "complete") {
+                 initializeTheme();
+            } else {
+                document.addEventListener('DOMContentLoaded', initializeTheme);
+            }
+        })();
+    </script>
+</body>
+</html>
