@@ -338,7 +338,7 @@
         });
 
          // --- Скрипт переключения темы ---
-         (function() { // IIFE для изоляции
+         (function() { 
             const themeToggleButton = document.getElementById('theme-toggle-button');
             const themeIcon = document.getElementById('theme-icon');
             const body = document.body;
@@ -347,7 +347,6 @@
             const themeKey = 'themePreferenceMVLawyers';
 
             if (!themeToggleButton || !themeIcon) {
-                // console.error('Theme toggle elements not found on team.html!');
                 return; 
             }
 
